@@ -1,0 +1,59 @@
+body{
+    background-image: url("./images/background.webp");
+    font-family: Cosmic Sans;
+    font-size: 20px;
+    background-repeat: no-repeat;
+  background-size: 100%;
+  color: brown;
+}
+
+div{
+    background-color: blanchedalmond;
+    height: 500px;
+    width:700px;
+    position: relative;
+    float: right;
+    margin:70px;
+    padding: 30px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+button{
+    size: 40px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: brown;
+    padding: 5px;
+    font-size: 30px;
+    color: brown;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+input{
+    
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: brown;
+}
+
+span{
+    
+    font-size: 30px;
+    font-weight:300;
+}
+
+button:disabled,
+button[disabled]{
+    color: black; 
+  background-color:rgb(67, 65, 65);
+  
+}
